@@ -10,9 +10,12 @@ public class UserRegistration {
 	String lastname="Patil";
 	System.out.println(lastname.matches(regex1));
 	String regex2="^[a-z]{3}(.+)[a-zA-z_+-]{0,8}@([a-zA-Z]{3,14}(.+))([a-zA-z]{2})$";
-	String email="abc.xy_z@Bridgelabz.co";
-	
+	String email="abc.xy_z@Bridgelabz.co.in";
 	System.out.println(email.matches(regex));
+	
+	String regex3="^[+91]{3}\\s{0,1}[0-9]{10}";
+	String mobile="+91 9919819801";
+	System.out.println(mobile.matches(regex3));
 	}
 
 }
