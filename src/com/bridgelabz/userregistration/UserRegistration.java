@@ -30,6 +30,11 @@ public class UserRegistration {
 	
 	String password3="ghyui8Gop";
 	System.out.println(password3.matches(regex6));
+	
+	
+	String regex7="^.*(?=.{8,})(?=..*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=]).*$";
+	String password4="Morningstar@31";
+	System.out.println(password4.matches(regex7));
 	}
 
 }
