@@ -16,6 +16,12 @@ public class UserRegistration {
 	String regex3="^[+91]{3}\\s{0,1}[0-9]{10}";
 	String mobile="+91 9919819801";
 	System.out.println(mobile.matches(regex3));
+	
+	
+	String regex4="[a-zA-z]{8,16}";
+	String password1="abcdefghijklmnop";
+	System.out.println(password1.matches(regex4));
+	
 	}
 
 }
