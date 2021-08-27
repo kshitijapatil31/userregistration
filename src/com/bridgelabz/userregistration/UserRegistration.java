@@ -3,7 +3,7 @@ package com.bridgelabz.userregistration;
 public class UserRegistration {
 
 	public static void main(String[] args) {
-	String regex="[A-Z]{1}[a-z]{2,9}";
+	/*String regex="[A-Z]{1}[a-z]{2,9}";
 	String firstname="Kshitija";
 	System.out.println(firstname.matches(regex));
 	String regex1="[A-Z]{1}[a-z]{2,9}";
@@ -15,13 +15,16 @@ public class UserRegistration {
 	
 	String regex3="^[+91]{3}\\s{0,1}[0-9]{10}";
 	String mobile="+91 9919819801";
-	System.out.println(mobile.matches(regex3));
+	System.out.println(mobile.matches(regex3));*/
 	
 	
-	String regex4="[a-zA-z]{8,16}";
-	String password1="abcdefghijklmnop";
+	String regex4="[a-zA-z]{8,10}";
+	String password1="rttyuiopp";
 	System.out.println(password1.matches(regex4));
 	
+	String regex5="(?=.*[A-Z])";
+	String password2="G";
+	System.out.println(password2.matches(regex5));
 	}
 
 }
